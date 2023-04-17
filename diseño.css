@@ -1,0 +1,426 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*hero*/
+
+
+.hero{
+    background-image: url(img/fondo1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(70, 70, 70);
+    background-blend-mode: soft-light;
+    height: 620px;
+}
+
+.logo{
+    height: 50px;
+    margin-top: 20px;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Menu{
+    color: white;
+    position: relative;
+    top: 15px;
+    font-size: 30px;
+    margin-left: 30px;
+    display: none;
+    cursor: pointer;
+}
+
+.menu{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.menu:hover{
+    color: rgb(255, 217, 0);
+    text-decoration: underline;
+}
+
+.hero1{
+    position: relative;
+    float: left;
+    width: 50%;
+    z-index: 3;
+}
+
+.hero h2{
+    color: white;
+    font-size: 40px;
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-right: 10%;
+}
+
+.hero h1{
+    color: rgb(255, 217, 0);
+    font-size: 120px;
+    margin-left: 150px;
+}
+
+.strong2{
+    color: white;
+}
+
+.hero p{
+    color: white;
+    font-size: 17px;
+    margin-left: 150px;
+    margin-bottom: 130px;
+    width: 65%;
+}
+
+.menu2{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.flecha-derecha{
+    color: white;
+    margin-left: 100px;
+}
+
+.flecha-derecha:hover{
+    cursor: pointer;
+}
+
+.menu2:hover{
+    color: rgb(255, 217, 0);
+    text-decoration: underline;
+}
+
+.redes{
+    display: flex;
+}
+
+.hero2{
+    float: right;
+    height: 50px;
+    width: 50%;
+}
+
+.hero-fondo1{
+    position: relative;
+    top: 5vh;
+    right: 5vh;
+    height: 35vh;
+    width: 50%;
+    border-radius: 10px;
+    z-index: 2;
+}
+
+.hero-fondo2{
+    position: relative;
+    bottom: 8vh;
+    left: 20vh;
+    height: 50vh;
+    width: 70%;
+    border-radius: 10px;
+    z-index: 1;
+}
+.hero-fondo3{
+    position: relative;
+    bottom: 45vh;
+    left: 5vh;
+    height: 45vh;
+    width: 40%;
+    border-radius: 10px;
+    z-index: 2;
+}
+
+
+/*div2*/
+
+
+.div2{
+    background-image: url(img/bandera.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(70, 70, 70, 0.726);
+    background-blend-mode: soft-light;
+}
+
+.titulo{
+    padding: 50px;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(255, 217, 0);
+}
+
+.nombre{
+    text-align: center;
+    color: white;
+}
+
+.tours1, .tours2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.tour img{
+    height: 40vh;
+    width: 300px;
+}
+
+.tour img:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 1);
+}
+
+.mas-tours{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.mas-tours:hover{
+    color: rgb(255, 217, 0);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+/*div3*/
+
+
+.div3{
+    background-image: url(img/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(70, 70, 70);
+    background-blend-mode: soft-light;
+    height: 600px;
+}
+.about1{
+    height: 600px;
+    width: 50%;
+    float: left;
+}
+.about1 h1{
+    font-size: 50px;
+    color: rgb(255, 217, 0);
+    margin-top: 70px;
+    margin-bottom: 40px;
+    margin-left: 150px;
+}
+.about1 p{
+    color:rgb(255, 255, 255);
+    margin-bottom: 30px;
+    margin-left: 150px;
+    margin-right: 120px;
+}
+.about2{
+    height: 600px;
+    width: 50%;
+    float: right;
+}
+.about2 img{
+    height: 90vh;
+}
+
+
+/*div4*/
+
+
+.div4{
+    background-image: url(img/fondo3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.div4 h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: rgb(255, 217, 0);
+}
+form{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 60vh;
+}
+label{
+    color: white;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+input, textarea{
+    padding: 10px;
+    height: 25px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.message{
+    height: 200px
+}
+.div4 button{
+    color: rgb(0, 0, 0);
+    background-color: rgba(0, 255, 255, 0.74);
+    font-size: 30px;
+    font-weight: 700;
+    border: none;
+    margin: 0 auto;
+    width: 50%;
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+.div4 button:hover{
+    color: white;
+    background-color: rgba(128, 255, 0, 0.74);
+    cursor: pointer;
+}
+
+
+/*copyright*/
+
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(50, 50, 50);
+    height: 50px;
+    color: white;
+}
+
+
+/*media queris*/
+/*hero*/
+
+
+@media(max-width: 1024px){
+    .hero2 img{
+        display: none;
+    }
+}
+@media(max-width:768px){
+    .menu{
+        display: none;
+    }
+    .Menu{
+        display: block;
+        font-size: 20px;
+    }
+    .hero h2{
+        font-size: 20px;
+        margin-left: 60px;
+    }
+    .hero h1{
+        font-size: 60px;
+        margin-left: 60px;
+    }
+    .hero p{
+        font-size: 10px;
+        margin-left: 60px;
+    }
+    .menu2{
+        font-size: 10px;
+    }
+    .flecha-derecha{
+        margin-left: 50px;
+    }
+}
+@media(max-width:320px){
+    .hero h2{
+        font-size: 20px;
+        margin-left: 30px;
+    }
+    .hero h1{
+        font-size: 60px;
+        margin-left: 30px;
+    }
+    .hero p{
+        font-size: 10px;
+        margin-left: 30px;
+    }
+}
+
+
+/*div2*/
+
+@media(max-width: 955px){
+    .tours1, .tours2{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+/*div3*/
+
+@media(max-width: 1180px){
+    .about2 img{
+        height: 70vh;
+    }
+}
+@media(max-width: 912px){
+    .about2 img{
+        height: 50vh;
+    }
+}
+@media(max-width: 890px){
+    .about1{
+        width: 100%;
+    }
+    .about1 h1, .about1 p{
+        margin-top: 20px;
+        margin-bottom: 0px;
+        margin-left: 20px;
+    }
+    .about2{
+        display: none;
+    }
+}
+
+
+/*div4*/
+
+
+@media(max-width:320px){
+    .hero h2{
+        font-size: 20px;
+        margin-left: 30px;
+    }
+    .hero h1{
+        font-size: 60px;
+        margin-left: 30px;
+    }
+    .hero p{
+        font-size: 10px;
+        margin-left: 30px;
+    }
+}
+
+
+
+
+
+
+
