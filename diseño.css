@@ -405,6 +405,6 @@ input, textarea{
 
 @media(max-width:320px){
     form{
-        width: 40vh;
+        width: 50vh;
     }
 }
