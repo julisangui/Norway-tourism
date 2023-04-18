@@ -405,6 +405,8 @@ input, textarea{
 
 @media(max-width:320px){
     form{
-        width: 50vh;
+        width: 30vh;
     }
+    .div4 button{
+    font-size: 15px;
 }
